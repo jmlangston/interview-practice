@@ -1,4 +1,5 @@
 # practice question from talk by parker from interview cake
+# given a list of integers, find the greatest difference between any two numbers in that list
 
 # solution 1
 
