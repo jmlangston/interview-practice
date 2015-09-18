@@ -51,10 +51,30 @@ def convert_roman_numeral_1(num):
             num -= 1
             continue
 
+    # iterate over roman_numeral string and if any of the letters C, X, or I appear four times in the same string, change the notation - ex: IIII would become IV
+
+    # print type(roman_numeral)
+
+    # while True:
+    #     'CCCC' in roman_numeral:
+    #         roman_numeral.replace('CCCC', 'CD')
+
+
+    # if 'CCCC' in roman_numeral:
+    #     print True
+    #     roman_numeral.replace('CCCC', 'CD')
+    # if 'XXXX' in roman_numeral:
+    #     roman_numeral.replace('XXXX', 'XL')
+    # if 'IIII' in roman_numeral:
+    #     roman_numeral.replace('IIII', 'IV')
+
+
     return roman_numeral
 
 
 # working on - a solution using a dictionary or other data structure
+
+# can't just iterate over dictionary because it's unordered...
 
 # def convert_roman_numeral_2(num):
 

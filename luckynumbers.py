@@ -20,11 +20,11 @@ def lucky_numbers(n):
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     """
 
-    set_randoms = set([]) #O(1)
-    while len(set_randoms) < n: #O(n) ?
-        random_num = random.randint(1, 10) #O(1)
-        set_randoms.add(random_num) #O(1)
-    return list(set_randoms) #O(1)
+    set_randoms = set([])  # O(1)
+    while len(set_randoms) < n:  # O(n) ?
+        random_num = random.randint(1, 10)  # O(1)
+        set_randoms.add(random_num)  # O(1)
+    return list(set_randoms)  # O(1)
 
 
 if __name__ == '__main__':
