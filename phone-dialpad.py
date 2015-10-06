@@ -17,37 +17,23 @@ dialpad_dict = {
 }
 
 
-combos_list = []
+def dialpad(nums):
 
-i = 0
-
-
-def dialpad(nums, combos_list, i):
-
-    while i < len(nums):
-
+    list_letters = []
 
     for num in nums:
+        list_letters.append(dialpad_dict[num])
 
+    combos_list = []
 
-    # list_letters = []
+    prefixes = list_letters[0]
 
-    # for num in nums:
-        # list_letters.append(dialpad_dict[num])
-
-    # print list_letters
-
-    # for letters in list_letters:
-    #     for letter in letters:
-    #         print letters[]
-
-    # for i in range(len(list_letters)):
-    #     letters = list_letters[i]
-    #     for j in range(len(letters)):
-    #         combo = i + j
-    #         combos_list.append(combo)
+    for prefix in prefixes:
+        for letter in list_letters[1]:
+            combo = prefix + letter
+            combos_list.append(combo)
 
     print combos_list
 
 
-# dialpad('23')
+dialpad('79')
