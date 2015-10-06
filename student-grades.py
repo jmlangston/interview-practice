@@ -1,4 +1,7 @@
-# hackerrank python introduction 'finding the percentage'
+# variation on hackerrank python introduction problem called 'finding the percentage'
+
+# given: list of students and their grades for math, physics, and chemistry
+# return: average grade for 
 
 # N = raw_input()
 # student1 = raw_input()
@@ -28,11 +31,9 @@ output = (int(grades[0]) + int(grades[1]) + int(grades[2])) / int(N)
 print output
 
 
-d={}
-for i in range(int(raw_input())):
-    line=raw_input().split()
-    d[line[0]]=sum(map(float,line[1:]))/3
+# d={}
+# for i in range(int(raw_input())):
+#     line=raw_input().split()
+#     d[line[0]]=sum(map(float,line[1:]))/3
 
-print '%.2f' % d[raw_input()]
-
-
+# print '%.2f' % d[raw_input()]
